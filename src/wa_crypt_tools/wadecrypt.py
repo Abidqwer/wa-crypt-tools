@@ -215,7 +215,7 @@ def chunked_decrypt(file_hash, cipher, encrypted, decrypted, buffer_size: int = 
                 # Move the sliding window forward.
                 chunk = next_chunk
 
-        if is_zip and (not no_decompress) and not z_obj.eof:
+        if is_zip and not no_decompress and not z_obj.eof:
             log.error("The encrypted database file is truncated (damaged).")
 
         decrypted.flush()
