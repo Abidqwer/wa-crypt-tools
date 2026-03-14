@@ -1,5 +1,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/ElDavoo/wa-crypt-tools/badge.svg?branch=main)](https://coveralls.io/github/ElDavoo/wa-crypt-tools?branch=main)
 
+![](1000.png)
+
 # WhatsApp Crypt Tools
 Decrypt and encrypt WhatsApp and WA Business' .crypt12, .crypt14 and .crypt15 files with ease!  
 For decryption, you NEED **the key file** or the 64-characters long key.  
